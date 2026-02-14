@@ -65,8 +65,8 @@ pip install opencv-python numpy ultralytics scipy
 | Parameter            | Description                                    | Default / Example                         |
 | -------------------- | ---------------------------------------------- | ----------------------------------------- |
 | `MODEL_PATH`         | Path to YOLOv8-Pose model                      | `"yolov8n-pose.pt"`                       |
-| `VIDEO_PATH`         | Input video path                               | `"E:/Vision Project/video.mp4"`           |
-| `OUTPUT_PATH`        | Output annotated video path                    | `"E:/Vision Project/sports_Football.avi"` |
+| `VIDEO_PATH`         | Input video path                               | `"Vision Project/video.mp4"`           |
+| `OUTPUT_PATH`        | Output annotated video path                    | `"Vision Project/sports_Football.avi"` |
 | `FRAME_SKIP`         | Process every Nth frame to reduce noise        | 3                                         |
 | `EMA_VEL`            | Smoothing for velocity vector                  | 0.4                                       |
 | `EMA_VIS`            | Smoothing for displayed metrics                | 0.2                                       |
